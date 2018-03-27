@@ -42,7 +42,7 @@ new Vue({
         if (window.dashboard.usingNodeServer) {
             options = {
                 broadcaster: 'socket.io',
-                host: 'http://dashboard.spatie.be:6001',
+                host: ':6001',
             };
         }
 
